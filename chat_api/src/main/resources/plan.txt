@@ -1,0 +1,18 @@
+Authorization:
+   Login-Password
+
+Registration:
+    Friend invite
+
+Chat interactions:
+    Print message
+    Get messages (X web sockets?)
+    Get user-info
+    change user data
+
+BD Entities:
+    User
+    Message?
+
+
+Front: react, css, js, html

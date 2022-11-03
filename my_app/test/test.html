@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+
+
+
+</head>
+
+<body>
+    <script>
+        function reqListener () {
+             console.log(this.responseText);
+        }
+        const oReq = new XMLHttpRequest();
+        oReq.addEventListener("load", reqListener);
+        oReq.open("GET", "http://localhost:8080/login", false, 'admin', '12345');
+        oReq.send();
+    </script>
+
+
+</body>
